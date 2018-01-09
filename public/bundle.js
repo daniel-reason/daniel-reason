@@ -23746,9 +23746,17 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Home = __webpack_require__(219);
+	var _Header = __webpack_require__(219);
+	
+	var _Header2 = _interopRequireDefault(_Header);
+	
+	var _Home = __webpack_require__(220);
 	
 	var _Home2 = _interopRequireDefault(_Home);
+	
+	var _Navigation = __webpack_require__(221);
+	
+	var _Navigation2 = _interopRequireDefault(_Navigation);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -23756,88 +23764,16 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { className: 'app-container' },
+	    _react2.default.createElement(_Navigation2.default, null),
+	    _react2.default.createElement(_Header2.default, null),
 	    _react2.default.createElement(_Home2.default, null)
 	  );
 	}
-	
-	// import AddWord from '../containers/AddWord'
-	// import Words from '../containers/Words'
 	
 	exports.default = App;
 
 /***/ }),
 /* 219 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _Header = __webpack_require__(220);
-	
-	var _Header2 = _interopRequireDefault(_Header);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Home = function Home(_ref) {
-	  var props = _ref.props;
-	  return _react2.default.createElement(
-	    'div',
-	    { className: 'container' },
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'homeContent' },
-	      _react2.default.createElement(_Header2.default, null),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'two columns' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'picOne', id: 'homeBoxes' },
-	          'Left side pic'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'eight columns', id: 'homeBoxes' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'newsContent' },
-	          'Middle news stuff'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'two columns' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'picTwo', id: 'homeBoxes' },
-	          'Right side pic'
-	        )
-	      ),
-	      _react2.default.createElement(
-	        'div',
-	        { className: 'twelve columns' },
-	        _react2.default.createElement(
-	          'div',
-	          { className: 'footerBox' },
-	          'Bottom links'
-	        )
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Home;
-
-/***/ }),
-/* 220 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -23856,25 +23792,97 @@
 	  var props = _ref.props;
 	  return _react2.default.createElement(
 	    "div",
-	    { className: "twelve columns" },
+	    { className: "header" },
 	    _react2.default.createElement(
-	      "div",
-	      { className: "header" },
-	      _react2.default.createElement("div", { id: "ihslLogo" }),
-	      _react2.default.createElement(
-	        "div",
-	        { id: "ihslText" },
-	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          "Inline Hockey Super League"
-	        )
-	      )
+	      "h1",
+	      null,
+	      "Daniel Reason"
 	    )
 	  );
 	};
 	
 	exports.default = Header;
+
+/***/ }),
+/* 220 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Home = function Home(_ref) {
+	  var props = _ref.props;
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "homeContent" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "twelve columns" },
+	      "Hello"
+	    )
+	  );
+	};
+	
+	exports.default = Home;
+
+/***/ }),
+/* 221 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Navigation = function Navigation(_ref) {
+	  var props = _ref.props;
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "navBar" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "links" },
+	      _react2.default.createElement(
+	        "a",
+	        { href: "#home" },
+	        "Home"
+	      ),
+	      _react2.default.createElement(
+	        "a",
+	        { href: "#projects" },
+	        "Projects"
+	      ),
+	      _react2.default.createElement(
+	        "a",
+	        { href: "#contact" },
+	        "Contact"
+	      )
+	    ),
+	    _react2.default.createElement(
+	      "p",
+	      null,
+	      "Some Text"
+	    )
+	  );
+	};
+	
+	exports.default = Navigation;
 
 /***/ })
 /******/ ]);

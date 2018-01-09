@@ -1,13 +1,14 @@
 import React from 'react'
 
-// import AddWord from '../containers/AddWord'
-// import Words from '../containers/Words'
-
+import Header from './Header'
 import Home from './Home'
+import Navigation from './Navigation'
 
 function App (props) {
   return (
     <div className='app-container'>
+      <Navigation />
+      <Header />
       <Home />
     </div>
   )

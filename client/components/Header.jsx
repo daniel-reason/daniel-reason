@@ -2,15 +2,9 @@ import React from 'react'
 
 const Header = ({props}) => (
 
-  <div className="twelve columns">
     <div className="header">
-      <div id='ihslLogo'>
-      </div>
-      <div id='ihslText'>
-        <h1>Inline Hockey Super League</h1>
-      </div>
+      <h1>Daniel Reason</h1>
     </div>
-  </div>
 )
 
 export default Header
