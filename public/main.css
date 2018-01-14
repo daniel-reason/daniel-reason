@@ -11,11 +11,20 @@ body {
    overflow: hidden;
    background-color: white;
    opacity: 0.5;
-   position: fixed;
+   position: relative;
    top: 0;
    width: 100%;
    margin-bottom: 10px;
    color: black;
+}
+
+.navBar a {
+  text-align: center;
+  display: inline-block;
+  background-color: yellow;
+  color: green;
+  padding: 10px 20px;
+  margin: 20px;
 }
 
 .navBar p {
@@ -23,7 +32,7 @@ body {
 }
 
  .header {
-   top: 50px;
+   top: 100px;
    color: black;
    text-align: center;
    height: 80px;
