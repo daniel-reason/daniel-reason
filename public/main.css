@@ -18,25 +18,28 @@ body {
    margin-left: auto;
    margin-right: auto;
    color: black;
+   opacity: 0.5;
 }
 
 .links a {
   text-align: center;
   display: inline-block;
-  background-color: yellow;
-  color: green;
+  background-color: gray;
+  color: black;
   width: 150px;
   padding: 10px 30px;
   border-radius: 0px 0px 15px 15px;
   border-style: solid;
-  border-color: green;
+  border-color: black;
   border-width: thin;
   margin: 0px 5px;
 }
 
 .links a:hover {
-  background-color: green;
-  color: yellow;
+  font-weight: bold;
+  background-color: white;
+  color: black;
+
 }
 
 .homeContent {

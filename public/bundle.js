@@ -23826,7 +23826,7 @@
 	    _react2.default.createElement(
 	      "div",
 	      { className: "twelve columns" },
-	      "Hello"
+	      "Hello World!"
 	    )
 	  );
 	};

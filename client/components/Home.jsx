@@ -3,7 +3,7 @@ import React from 'react'
 const Home = ({props}) => (
   <div className="homeContent">
     <div className="twelve columns">
-      Hello
+      Hello World!
     </div>
   </div>
 )
