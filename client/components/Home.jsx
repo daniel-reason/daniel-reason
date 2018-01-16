@@ -1,12 +1,13 @@
 import React from 'react'
 
-import Navigation from './Navigation'
 
-const Home = ({props}) => (
-  <div className="homeContent">
-    <Navigation />
-    <div className="twelve columns">
-      Hello World!
+const Home = () => (
+
+  <div className="container">
+    <div className="homeContent">
+      <div className="twelve columns">
+        Hello World!
+      </div>
     </div>
   </div>
 )

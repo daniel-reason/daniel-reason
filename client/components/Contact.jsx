@@ -1,15 +1,15 @@
 import React from 'react'
 
 
-const Projects = ({props}) => (
+const Contact = ({props}) => (
 
     <div className="container">
-      <div className="projects">
+      <div className="contact">
         <div className="twelve columns">
-          <h1>Projects Page</h1>
+          <h1>Contact Page</h1>
         </div>
       </div>
     </div>
 )
 
-export default Projects
+export default Contact
