@@ -23765,7 +23765,6 @@
 	    'div',
 	    { className: 'app-container' },
 	    _react2.default.createElement(_Navigation2.default, null),
-	    _react2.default.createElement(_Header2.default, null),
 	    _react2.default.createElement(_Home2.default, null)
 	  );
 	}
@@ -23873,11 +23872,6 @@
 	        { href: "#contact" },
 	        "Contact"
 	      )
-	    ),
-	    _react2.default.createElement(
-	      "p",
-	      null,
-	      "Some Text"
 	    )
 	  );
 	};

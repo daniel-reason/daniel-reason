@@ -8,7 +8,6 @@ const Navigation = ({props}) => (
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
-    <p>Some Text</p>
   </div>
 )
 

@@ -8,27 +8,38 @@ body {
  }
 
  .navBar {
+   text-align: center;
    overflow: hidden;
-   background-color: white;
-   opacity: 0.5;
    position: relative;
-   top: 0;
-   width: 100%;
-   margin-bottom: 10px;
+   top: -10px;
+   height: 40px;
+   width: auto;
+   margin-left: auto;
+   margin-right: auto;
    color: black;
 }
 
-.navBar a {
+.links a {
   text-align: center;
   display: inline-block;
   background-color: yellow;
   color: green;
-  padding: 10px 20px;
-  margin: 20px;
+  padding: 10px 30px;
+  border-radius: 0px 0px 15px 15px;
+  border-style: solid;
+  border-color: green;
+  border-width: thin;
 }
 
-.navBar p {
-  color: black;
+.links a:hover {
+  background-color: green;
+  color: yellow;
+}
+
+.homeContent {
+  color: white;
+  text-align: center;
+  height: 725px;
 }
 
  .header {
@@ -43,22 +54,6 @@ body {
    position: relative;
    opacity: 0.5;
  }
-
- .homeContent {
-   color: black;
-   text-align: center;
-   background-color: white;
-   height: 500px;
-   position: relative;
- }
-/*
-.columns {
-  top: -200px;
-  width: 100%;
-  float: left;
-  box-sizing: border-box;
-  display: block;
- }*/
 
   .one.column,
   .one.columns                    { width: 8.33333333333%; }

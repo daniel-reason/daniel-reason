@@ -8,7 +8,6 @@ function App (props) {
   return (
     <div className='app-container'>
       <Navigation />
-      <Header />
       <Home />
     </div>
   )
