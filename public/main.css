@@ -26,7 +26,7 @@ body {
   display: inline-block;
   background-color: gray;
   color: black;
-  width: 150px;
+  width: 15%;
   padding: 10px 30px;
   border-radius: 0px 0px 15px 15px;
   border-style: solid;
@@ -48,18 +48,6 @@ body {
   height: 750px;
 }
 
- .header {
-   top: 100px;
-   color: black;
-   text-align: center;
-   height: 80px;
-   width: 100%;
-   background: white;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   position: relative;
-   opacity: 0.5;
- }
 
   .one.column,
   .one.columns                    { width: 8.33333333333%; }

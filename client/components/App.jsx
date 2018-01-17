@@ -1,9 +1,9 @@
 import React from 'react'
 import { HashRouter as Router, Route } from 'react-router-dom'
 
+import Contact from './Contact'
 import Home from './Home'
 import Navigation from './Navigation'
-import Contact from './Contact'
 import Projects from './Projects'
 
 function App (props) {
@@ -17,7 +17,6 @@ function App (props) {
           <Route path='/contact' component={Contact} />
         </div>
       </Router>
-      <Home />
     </div>
   )
 }

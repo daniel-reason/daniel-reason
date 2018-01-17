@@ -23748,19 +23748,19 @@
 	
 	var _reactRouterDom = __webpack_require__(219);
 	
-	var _Home = __webpack_require__(256);
-	
-	var _Home2 = _interopRequireDefault(_Home);
-	
-	var _Navigation = __webpack_require__(257);
-	
-	var _Navigation2 = _interopRequireDefault(_Navigation);
-	
-	var _Contact = __webpack_require__(259);
+	var _Contact = __webpack_require__(256);
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
-	var _Projects = __webpack_require__(258);
+	var _Home = __webpack_require__(257);
+	
+	var _Home2 = _interopRequireDefault(_Home);
+	
+	var _Navigation = __webpack_require__(258);
+	
+	var _Navigation2 = _interopRequireDefault(_Navigation);
+	
+	var _Projects = __webpack_require__(259);
 	
 	var _Projects2 = _interopRequireDefault(_Projects);
 	
@@ -23781,8 +23781,7 @@
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/projects', component: _Projects2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default })
 	      )
-	    ),
-	    _react2.default.createElement(_Home2.default, null)
+	    )
 	  );
 	}
 	
@@ -27550,134 +27549,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var Home = function Home() {
-	  return _react2.default.createElement(
-	    "div",
-	    { className: "container" },
-	    _react2.default.createElement(
-	      "div",
-	      { className: "homeContent" },
-	      _react2.default.createElement(
-	        "div",
-	        { className: "twelve columns" },
-	        "Hello World!"
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Home;
-
-/***/ }),
-/* 257 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	'use strict';
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	var _reactRouterDom = __webpack_require__(219);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Navigation = function Navigation(_ref) {
-	  var props = _ref.props;
-	  return _react2.default.createElement(
-	    'div',
-	    { className: 'navBar' },
-	    _react2.default.createElement(
-	      'div',
-	      { className: 'links' },
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#home' },
-	        'Home'
-	      ),
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#projects' },
-	        'Projects'
-	      ),
-	      _react2.default.createElement(
-	        'a',
-	        { href: '#contact' },
-	        'Contact'
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Navigation;
-	
-	//  <div id='shoppingList'>
-	//    <Link to='/shoppinglist'>
-	//      <img src='../../css/images/shoppingList.png' alt='link to shopping list' />
-	//    </Link>
-	//  </div>
-
-/***/ }),
-/* 258 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Projects = function Projects(_ref) {
-	  var props = _ref.props;
-	  return _react2.default.createElement(
-	    "div",
-	    { className: "container" },
-	    _react2.default.createElement(
-	      "div",
-	      { className: "projects" },
-	      _react2.default.createElement(
-	        "div",
-	        { className: "twelve columns" },
-	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          "Projects Page"
-	        )
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Projects;
-
-/***/ }),
-/* 259 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Contact = function Contact(_ref) {
-	  var props = _ref.props;
+	var Contact = function Contact() {
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "container" },
@@ -27698,6 +27570,131 @@
 	};
 	
 	exports.default = Contact;
+
+/***/ }),
+/* 257 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Home = function Home() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "homeContent" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "twelve columns" },
+	        "Hello World!"
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Home;
+
+/***/ }),
+/* 258 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	// import { Link } from 'react-router-dom'
+	
+	var Navigation = function Navigation(_ref) {
+	  var props = _ref.props;
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "navBar" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "links" },
+	      _react2.default.createElement(
+	        "a",
+	        { href: "#" },
+	        "Home"
+	      ),
+	      _react2.default.createElement(
+	        "a",
+	        { href: "#projects" },
+	        "Projects"
+	      ),
+	      _react2.default.createElement(
+	        "a",
+	        { href: "#contact" },
+	        "Contact"
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Navigation;
+	
+	//  <div id='shoppingList'>
+	//    <Link to='/shoppinglist'>
+	//      <img src='../../css/images/shoppingList.png' alt='link to shopping list' />
+	//    </Link>
+	//  </div>
+
+/***/ }),
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Projects = function Projects() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "projects" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "twelve columns" },
+	        _react2.default.createElement(
+	          "h1",
+	          null,
+	          "Projects Page"
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Projects;
 
 /***/ })
 /******/ ]);

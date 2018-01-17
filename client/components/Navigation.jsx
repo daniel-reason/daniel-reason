@@ -1,12 +1,12 @@
 import React from 'react'
 
-import { Link } from 'react-router-dom'
+// import { Link } from 'react-router-dom'
 
 const Navigation = ({props}) => (
 
   <div className="navBar">
     <div className="links">
-      <a href="#home">Home</a>
+      <a href="#">Home</a>
       <a href="#projects">Projects</a>
       <a href="#contact">Contact</a>
     </div>
