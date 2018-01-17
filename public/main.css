@@ -8,6 +8,10 @@ body {
   font-family: 'MyWebFont', Fallback, sans-serif;
  }
 
+ .app-container {
+   height: 750px;
+ }
+
  .navBar {
    text-align: center;
    overflow: hidden;
@@ -45,7 +49,6 @@ body {
 .homeContent {
   color: white;
   text-align: center;
-  height: 750px;
 }
 
 
