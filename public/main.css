@@ -12,12 +12,11 @@ body {
    text-align: center;
    overflow: hidden;
    position: fixed;
-   top: -10px;
+   top: -5px;
    height: 40px;
    width: 50%;
    margin-left: 25%;
    margin-right: 25%;
-   color: black;
    z-index: 10;
 }
 
@@ -30,19 +29,19 @@ body {
   padding: 10px 30px;
   border-radius: 0px 0px 15px 15px;
   border-style: solid;
-  border-color: black;
+  border-color: #595959;
   border-width: thin;
   margin: 0px 5px;
 }
 
 .links a:hover {
   font-weight: bold;
-  background-color: white;
-  color: black;
+  background-color: #595959;
+
 
 }
 
-.homeContent {
+.container {
   top: 70px;
   position: relative;
   color: white;

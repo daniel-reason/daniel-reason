@@ -6,7 +6,7 @@ const Home = () => (
   <div className="container">
     <div className="homeContent">
       <div className="twelve columns">
-        Hello World!
+        <h1>Hello World!</h1>
       </div>
     </div>
   </div>
