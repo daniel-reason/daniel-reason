@@ -1,28 +1,24 @@
 body {
   color: white;
-  background-image: url("./images/background.jpg");
-  background-size: 100% 100%;
-  background-position: top;
-  background-repeat: no-repeat;
-  display:block;
+  background: url("./images/background.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+  background-size: cover;
   font-family: 'MyWebFont', Fallback, sans-serif;
- }
-
- .app-container {
-   height: 750px;
  }
 
  .navBar {
    text-align: center;
    overflow: hidden;
-   position: relative;
+   position: fixed;
    top: -10px;
    height: 40px;
-   width: auto;
-   margin-left: auto;
-   margin-right: auto;
+   width: 50%;
+   margin-left: 25%;
+   margin-right: 25%;
    color: black;
-   opacity: 0.5;
+   z-index: 10;
 }
 
 .links a {
@@ -47,6 +43,8 @@ body {
 }
 
 .homeContent {
+  top: 70px;
+  position: relative;
   color: white;
   text-align: center;
 }
