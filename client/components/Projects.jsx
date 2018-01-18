@@ -5,7 +5,14 @@ const Projects = () => (
 
     <div className="container">
       <div className="projects">
-        <div className="twelve columns">
+        <ul className="two columns" id="proj-nav">
+          <li>Project 1</li>
+          <li>Project 2</li>
+          <li>Project 3</li>
+          <li>Project 4</li>
+          <li>Project 5</li>
+        </ul>
+        <div className="ten columns">
           <h1>Projects Page</h1>
         </div>
       </div>

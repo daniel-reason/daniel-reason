@@ -27686,8 +27686,37 @@
 	      "div",
 	      { className: "projects" },
 	      _react2.default.createElement(
+	        "ul",
+	        { className: "two columns", id: "proj-nav" },
+	        _react2.default.createElement(
+	          "li",
+	          null,
+	          "Project 1"
+	        ),
+	        _react2.default.createElement(
+	          "li",
+	          null,
+	          "Project 2"
+	        ),
+	        _react2.default.createElement(
+	          "li",
+	          null,
+	          "Project 3"
+	        ),
+	        _react2.default.createElement(
+	          "li",
+	          null,
+	          "Project 4"
+	        ),
+	        _react2.default.createElement(
+	          "li",
+	          null,
+	          "Project 5"
+	        )
+	      ),
+	      _react2.default.createElement(
 	        "div",
-	        { className: "twelve columns" },
+	        { className: "ten columns" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,

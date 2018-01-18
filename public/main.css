@@ -50,23 +50,19 @@ body {
 
 
   .one.column,
-  .one.columns                    { width: 8.33333333333%; }
-  .two.columns                    { width: 16.6666666667%; }
-  .three.columns                  { width: 25%;            }
-  .four.columns                   { width: 33.3333333333%; }
-  .five.columns                   { width: 41.6666666667%; }
-  .six.columns                    { width: 50%;            }
-  .seven.columns                  { width: 58.3333333333%; }
-  .eight.columns                  { width: 66.6666666667%; }
-  .nine.columns                   { width: 75.0%;          }
-  .ten.columns                    { width: 83.3333333333%; }
-  .eleven.columns                 { width: 91.6666666667%; }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
+  .one.columns                    { width: 8%; }
+  .two.columns                    { width: 16%; }
+  .three.columns                  { width: 24%;            }
+  .four.columns                   { width: 33%; }
+  .five.columns                   { width: 41%; }
+  .six.columns                    { width: 49%;            }
+  .seven.columns                  { width: 58%; }
+  .eight.columns                  { width: 66%; }
+  .nine.columns                   { width: 74%;          }
+  .ten.columns                    { width: 83%; }
+  .eleven.columns                 { width: 91%; }
+  .twelve.columns                 { width: 99%; margin-left: 0; }
 
-  .one-third.column               { width: 30.6666666667%; }
-  .two-thirds.column              { width: 65.3333333333%; }
-
-  .one-half.column                { width: 48%; }
 
   /* Offsets */
   .offset-by-one.column,
