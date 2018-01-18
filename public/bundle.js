@@ -23760,9 +23760,29 @@
 	
 	var _Navigation2 = _interopRequireDefault(_Navigation);
 	
-	var _Projects = __webpack_require__(259);
+	var _Projects = __webpack_require__(260);
 	
 	var _Projects2 = _interopRequireDefault(_Projects);
+	
+	var _Project = __webpack_require__(261);
+	
+	var _Project2 = _interopRequireDefault(_Project);
+	
+	var _Project3 = __webpack_require__(263);
+	
+	var _Project4 = _interopRequireDefault(_Project3);
+	
+	var _Project5 = __webpack_require__(264);
+	
+	var _Project6 = _interopRequireDefault(_Project5);
+	
+	var _Project7 = __webpack_require__(265);
+	
+	var _Project8 = _interopRequireDefault(_Project7);
+	
+	var _Project9 = __webpack_require__(266);
+	
+	var _Project10 = _interopRequireDefault(_Project9);
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
@@ -23779,6 +23799,11 @@
 	        null,
 	        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/projects', component: _Projects2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project1', component: _Project2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project2', component: _Project4.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project3', component: _Project6.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project4', component: _Project8.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project5', component: _Project10.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default })
 	      )
 	    )
@@ -27600,7 +27625,7 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "Hello World!"
+	          "A place for me to display my talents."
 	        )
 	      )
 	    )
@@ -27663,7 +27688,94 @@
 	//  </div>
 
 /***/ }),
-/* 259 */
+/* 259 */,
+/* 260 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProjectNav = __webpack_require__(262);
+	
+	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Projects = function Projects() {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'projects' },
+	      _react2.default.createElement(_ProjectNav2.default, null),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'eight columns', id: 'proj-content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Projects Page'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Projects;
+
+/***/ }),
+/* 261 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProjectNav = __webpack_require__(262);
+	
+	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Project1 = function Project1() {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'projects' },
+	      _react2.default.createElement(_ProjectNav2.default, null),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'eight columns', id: 'proj-content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Project Number 1'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Project1;
+
+/***/ }),
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27678,7 +27790,7 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var Projects = function Projects() {
+	var ProjectNav = function ProjectNav() {
 	  return _react2.default.createElement(
 	    "div",
 	    { className: "container" },
@@ -27690,44 +27802,207 @@
 	        { className: "two columns", id: "proj-nav" },
 	        _react2.default.createElement(
 	          "a",
-	          { href: "#projects" },
+	          { href: "#project1" },
 	          "Project 1"
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "#projects" },
+	          { href: "#project2" },
 	          "Project 2"
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "#projects" },
+	          { href: "#project3" },
 	          "Project 3"
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "#projects" },
+	          { href: "#project4" },
 	          "Project 4"
 	        ),
 	        _react2.default.createElement(
 	          "a",
-	          { href: "#projects" },
+	          { href: "#project5" },
 	          "Project 5"
-	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { className: "ten columns", id: "proj-content" },
-	        _react2.default.createElement(
-	          "h1",
-	          null,
-	          "Projects Page"
 	        )
 	      )
 	    )
 	  );
 	};
 	
-	exports.default = Projects;
+	exports.default = ProjectNav;
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProjectNav = __webpack_require__(262);
+	
+	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Project2 = function Project2() {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'projects' },
+	      _react2.default.createElement(_ProjectNav2.default, null),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'eight columns', id: 'proj-content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Project Number 2'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Project2;
+
+/***/ }),
+/* 264 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProjectNav = __webpack_require__(262);
+	
+	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Project3 = function Project3() {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'projects' },
+	      _react2.default.createElement(_ProjectNav2.default, null),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'eight columns', id: 'proj-content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Project Number 3'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Project3;
+
+/***/ }),
+/* 265 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProjectNav = __webpack_require__(262);
+	
+	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Project4 = function Project4() {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'projects' },
+	      _react2.default.createElement(_ProjectNav2.default, null),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'eight columns', id: 'proj-content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Project Number 4'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Project4;
+
+/***/ }),
+/* 266 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _ProjectNav = __webpack_require__(262);
+	
+	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Project5 = function Project5() {
+	  return _react2.default.createElement(
+	    'div',
+	    { className: 'container' },
+	    _react2.default.createElement(
+	      'div',
+	      { className: 'projects' },
+	      _react2.default.createElement(_ProjectNav2.default, null),
+	      _react2.default.createElement(
+	        'div',
+	        { className: 'eight columns', id: 'proj-content' },
+	        _react2.default.createElement(
+	          'h1',
+	          null,
+	          'Project Number 5'
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Project5;
 
 /***/ })
 /******/ ]);

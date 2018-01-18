@@ -66,18 +66,8 @@ body {
   border-radius: 15px;
 }
 
-#proj-nav a:active {
-  background-color: gray;
-  opacity: 0.5;
-  border-radius: 15px;
-}
-
-/*#proj-nav a:visited {
-  color: white;
-}*/
-
 #proj-content {
-  float: right;
+  float: left;
 }
 
   .one.column,
