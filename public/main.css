@@ -8,6 +8,13 @@ body {
   font-family: 'MyWebFont', Fallback, sans-serif;
  }
 
+ .container {
+   top: 70px;
+   position: relative;
+   color: white;
+   text-align: center;
+ }
+
  .navBar {
    text-align: center;
    overflow: hidden;
@@ -37,17 +44,41 @@ body {
 .links a:hover {
   font-weight: bold;
   background-color: #595959;
-
-
 }
 
-.container {
-  top: 70px;
-  position: relative;
+#proj-nav {
+  text-align: left;
+  float: left;
+  display: block
+}
+
+#proj-nav a {
+  color: black;
+  font-size: 1.5em;
+  margin: 5px;
+  padding: 10px 30px;
+  display: inline-block;
+}
+
+#proj-nav a:hover {
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+
+#proj-nav a:active {
+  background-color: gray;
+  opacity: 0.5;
+  border-radius: 15px;
+}
+
+/*#proj-nav a:visited {
   color: white;
-  text-align: center;
-}
+}*/
 
+#proj-content {
+  float: right;
+}
 
   .one.column,
   .one.columns                    { width: 8%; }

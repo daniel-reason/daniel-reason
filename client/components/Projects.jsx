@@ -5,14 +5,14 @@ const Projects = () => (
 
     <div className="container">
       <div className="projects">
-        <ul className="two columns" id="proj-nav">
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-          <li>Project 4</li>
-          <li>Project 5</li>
-        </ul>
-        <div className="ten columns">
+        <div className="two columns" id="proj-nav">
+          <a href="#projects">Project 1</a>
+          <a href="#projects">Project 2</a>
+          <a href="#projects">Project 3</a>
+          <a href="#projects">Project 4</a>
+          <a href="#projects">Project 5</a>
+        </div>
+        <div className="ten columns" id="proj-content">
           <h1>Projects Page</h1>
         </div>
       </div>

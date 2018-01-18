@@ -27686,37 +27686,37 @@
 	      "div",
 	      { className: "projects" },
 	      _react2.default.createElement(
-	        "ul",
+	        "div",
 	        { className: "two columns", id: "proj-nav" },
 	        _react2.default.createElement(
-	          "li",
-	          null,
+	          "a",
+	          { href: "#projects" },
 	          "Project 1"
 	        ),
 	        _react2.default.createElement(
-	          "li",
-	          null,
+	          "a",
+	          { href: "#projects" },
 	          "Project 2"
 	        ),
 	        _react2.default.createElement(
-	          "li",
-	          null,
+	          "a",
+	          { href: "#projects" },
 	          "Project 3"
 	        ),
 	        _react2.default.createElement(
-	          "li",
-	          null,
+	          "a",
+	          { href: "#projects" },
 	          "Project 4"
 	        ),
 	        _react2.default.createElement(
-	          "li",
-	          null,
+	          "a",
+	          { href: "#projects" },
 	          "Project 5"
 	        )
 	      ),
 	      _react2.default.createElement(
 	        "div",
-	        { className: "ten columns" },
+	        { className: "ten columns", id: "proj-content" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,
