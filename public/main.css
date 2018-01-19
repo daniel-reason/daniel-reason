@@ -5,7 +5,12 @@ body {
     -moz-background-size: cover;
     -o-background-size: cover;
   background-size: cover;
-  font-family: 'MyWebFont', Fallback, sans-serif;
+  /*font-family: 'MyWebFont', Fallback, sans-serif;*/
+  font-family: 'Merienda';
+ }
+
+ a {
+   text-decoration: none;
  }
 
  .container {
@@ -42,11 +47,11 @@ body {
 }
 
 .links a:hover {
-  height: 20px;
-  font-weight: bold;
+  height: 25px;
   background-color: #595959;
   border-color: gray;
   border-radius: 0px 0px 20px 20px;
+  text-transform: uppercase;
   transition: 0.5s;
 }
 
