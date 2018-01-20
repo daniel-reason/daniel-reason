@@ -23748,6 +23748,10 @@
 	
 	var _reactRouterDom = __webpack_require__(219);
 	
+	var _About = __webpack_require__(266);
+	
+	var _About2 = _interopRequireDefault(_About);
+	
 	var _Contact = __webpack_require__(256);
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
@@ -23798,13 +23802,14 @@
 	        'div',
 	        null,
 	        _react2.default.createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _Home2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/about', component: _About2.default }),
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/projects', component: _Projects2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project1', component: _Project2.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project2', component: _Project4.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project3', component: _Project6.default }),
 	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project4', component: _Project8.default }),
-	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project5', component: _Project10.default }),
-	        _react2.default.createElement(_reactRouterDom.Route, { path: '/contact', component: _Contact2.default })
+	        _react2.default.createElement(_reactRouterDom.Route, { path: '/project5', component: _Project10.default })
 	      )
 	    )
 	  );
@@ -27680,6 +27685,11 @@
 	      ),
 	      _react2.default.createElement(
 	        "a",
+	        { href: "#about", id: "about-link" },
+	        "About"
+	      ),
+	      _react2.default.createElement(
+	        "a",
 	        { href: "#contact", id: "contact-link" },
 	        "Contact"
 	      )
@@ -28012,6 +28022,44 @@
 	};
 	
 	exports.default = Project5;
+
+/***/ }),
+/* 266 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var About = function About() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "about" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "twelve columns", id: "about-content" },
+	        _react2.default.createElement(
+	          "h1",
+	          null,
+	          "About Page"
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = About;
 
 /***/ })
 /******/ ]);

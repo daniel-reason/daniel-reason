@@ -26,8 +26,9 @@ body {
 
  .homeContent,
  .contact,
+ .about,
  #proj-content {
-   margin-top: 10%;
+   margin-top: 80px;
  }
 
  .navBar {
@@ -78,10 +79,17 @@ body {
   position: fixed;
   z-index: 4;
 }
-#contact-link {
+
+#about-link {
   left: 24%;
   position: fixed;
   z-index: 3;
+}
+
+#contact-link {
+  left: 36%;
+  position: fixed;
+  z-index: 2;
 }
 
 #home-link:hover,
