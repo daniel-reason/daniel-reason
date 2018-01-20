@@ -27625,7 +27625,15 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "Home"
+	          "Hello, I'm ",
+	          _react2.default.createElement(
+	            "span",
+	            { id: "myName" },
+	            "Daniel Reason"
+	          ),
+	          ".",
+	          _react2.default.createElement("br", null),
+	          "I'm a full-stack web developer."
 	        )
 	      )
 	    )
@@ -27721,7 +27729,9 @@
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          'Projects Page'
+	          'Construction Zone.',
+	          _react2.default.createElement('br', null),
+	          'Hardhats must be worn!'
 	        )
 	      )
 	    )

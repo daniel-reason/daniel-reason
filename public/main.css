@@ -13,11 +13,21 @@ body {
    text-decoration: none;
  }
 
+ h1 {
+   text-shadow: 1px 1px black;
+ }
+
  .container {
    top: 70px;
    position: relative;
    color: white;
    text-align: center;
+ }
+
+ .homeContent,
+ .contact,
+ #proj-content {
+   margin-top: 10%;
  }
 
  .navBar {
@@ -35,7 +45,7 @@ body {
   text-align: center;
   display: inline-block;
   background-color: gray;
-  color: black;
+  color: white;
   width: 10%;
   padding: 15px 30px;
   border-radius: 0px 0px 30px 30px;
@@ -44,6 +54,7 @@ body {
   border-width: thin;
   margin: 0px -10px;
   transition: 0.5s ease-out;
+  box-shadow: 1px 0px black;
 }
 
 .links a:hover {
@@ -52,7 +63,9 @@ body {
   border-color: gray;
   border-radius: 0px 0px 20px 20px;
   text-transform: uppercase;
+  text-shadow: 1px 1px black;
   transition: 0.5s;
+  box-shadow: 1px 1px black;
 }
 
 #home-link {
@@ -84,15 +97,16 @@ body {
 }
 
 #proj-nav a {
-  color: black;
+  color: white;
   font-size: 1.5em;
-  margin: 5px 5px 5px -8px;
+  margin: 0px 0px 0px -8px;
   padding: 10px 30px;
   display: inline-block;
   transition: 1s ease-out;
 }
 
 #proj-nav a:hover {
+  color: black;
   background-color: white;
   opacity: 0.5;
   border-radius: 0px 30px 30px 0px;
@@ -101,6 +115,10 @@ body {
 
 #proj-content {
   float: left;
+}
+
+#myName {
+  color: #ff4d4d;
 }
 
   .one.column,
