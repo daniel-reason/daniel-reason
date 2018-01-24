@@ -52,7 +52,7 @@ body {
   display: inline-block;
   background-color: gray;
   color: white;
-  width: 10%;
+  width: 7.5%;
   padding: 15px 30px;
   border-radius: 0px 0px 30px 30px;
   border-style: solid;
@@ -64,7 +64,7 @@ body {
 }
 
 .links a:hover {
-  height: 25px;
+  height: 30px;
   background-color: #595959;
   border-color: gray;
   border-radius: 0px 0px 20px 20px;
@@ -80,19 +80,19 @@ body {
 }
 
 #projects-link {
-  left: 12%;
+  left: 10%;
   position: fixed;
   z-index: 4;
 }
 
 #about-link {
-  left: 24%;
+  left: 20%;
   position: fixed;
   z-index: 3;
 }
 
 #contact-link {
-  left: 36%;
+  left: 30%;
   position: fixed;
   z-index: 2;
 }
