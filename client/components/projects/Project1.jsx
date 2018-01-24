@@ -20,7 +20,7 @@ const Project1 = () => (
             <input type="submit" value="Submit"></input><br></br>
           </form>
           <div className="result">
-            <h1 id="theResult"></h1>
+            <h2 id="theResult"></h2>
           </div>
         </div>
       </div>
@@ -32,7 +32,19 @@ export default Project1
 function calculate (ev) {
   ev.preventDefault()
 
-  let a = ev.target.elements[0].value
-  document.getElementById("theResult").innerHTML = a
+  var a = ev.target.elements[0].value
+  var b = [0,1]
+  var date = ""
+
+  for (var i=0;i<a;i++) {
+    if (i>1) {
+      b.push(b[i-2] + b[i-1])
+    }
+  }
+
+  if (b[a-1] == undefined) {
+    document.getElementById("theResult").innerHTML = "Please enter a whole number above 0."
+  } else { document.getElementById("theResult").innerHTML = ("Number " + a + " position is " + (b[a-1]))
+  }
   document.getElementById("fibonacci").reset()
 }

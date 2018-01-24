@@ -27814,7 +27814,7 @@
 	      _react2.default.createElement(
 	        "a",
 	        { href: "#project1" },
-	        "Project 1"
+	        "Fibonacci"
 	      ),
 	      _react2.default.createElement(
 	        "a",
@@ -27903,7 +27903,7 @@
 	        _react2.default.createElement(
 	          'div',
 	          { className: 'result' },
-	          _react2.default.createElement('h1', { id: 'theResult' })
+	          _react2.default.createElement('h2', { id: 'theResult' })
 	        )
 	      )
 	    )
@@ -27917,7 +27917,20 @@
 	  ev.preventDefault();
 	
 	  var a = ev.target.elements[0].value;
-	  document.getElementById("theResult").innerHTML = a;
+	  var b = [0, 1];
+	  var date = "";
+	
+	  for (var i = 0; i < a; i++) {
+	    if (i > 1) {
+	      b.push(b[i - 2] + b[i - 1]);
+	    }
+	  }
+	
+	  if (b[a - 1] == undefined) {
+	    document.getElementById("theResult").innerHTML = "Please enter a whole number above 0.";
+	  } else {
+	    document.getElementById("theResult").innerHTML = "Number " + a + " position is " + b[a - 1];
+	  }
 	  document.getElementById("fibonacci").reset();
 	}
 
