@@ -48,6 +48,7 @@ body {
 }
 
 .links a {
+  position: fixed;
   text-align: center;
   display: inline-block;
   background-color: gray;
@@ -66,7 +67,6 @@ body {
 .links a:hover {
   height: 30px;
   background-color: #595959;
-  border-color: gray;
   border-radius: 0px 0px 20px 20px;
   text-transform: uppercase;
   text-shadow: 1px 1px black;
@@ -75,25 +75,21 @@ body {
 }
 
 #home-link {
-  position: fixed;
   z-index: 5;
 }
 
 #projects-link {
   left: 10%;
-  position: fixed;
   z-index: 4;
 }
 
 #about-link {
   left: 20%;
-  position: fixed;
   z-index: 3;
 }
 
 #contact-link {
   left: 30%;
-  position: fixed;
   z-index: 2;
 }
 

@@ -27856,6 +27856,8 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _reactRedux = __webpack_require__(184);
+	
 	var _ProjectNav = __webpack_require__(261);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
@@ -27874,9 +27876,34 @@
 	        'div',
 	        { className: 'eight columns', id: 'proj-content' },
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Project Number 1'
+	          'div',
+	          { className: 'proj1Heading' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Fibonacci!'
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Enter a number and receive the integer located at that position of the sequence.',
+	            _react2.default.createElement('br', null),
+	            '(Yes this is simple but it\'s a good place to start).'
+	          ),
+	          _react2.default.createElement('br', null)
+	        ),
+	        _react2.default.createElement(
+	          'form',
+	          { onSubmit: calculate, id: 'fibonacci' },
+	          _react2.default.createElement('input', { type: 'text', name: 'number', placeholder: 'Enter number' }),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement('input', { type: 'submit', value: 'Submit' }),
+	          _react2.default.createElement('br', null)
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'result' },
+	          _react2.default.createElement('h1', { id: 'theResult' })
 	        )
 	      )
 	    )
@@ -27884,6 +27911,15 @@
 	};
 	
 	exports.default = Project1;
+	
+	
+	function calculate(ev) {
+	  ev.preventDefault();
+	
+	  var a = ev.target.elements[0].value;
+	  document.getElementById("theResult").innerHTML = a;
+	  document.getElementById("fibonacci").reset();
+	}
 
 /***/ }),
 /* 263 */
