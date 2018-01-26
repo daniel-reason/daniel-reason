@@ -27819,7 +27819,7 @@
 	      _react2.default.createElement(
 	        "a",
 	        { href: "#project2" },
-	        "Project 2"
+	        "Morse Code Creator"
 	      ),
 	      _react2.default.createElement(
 	        "a",
@@ -27877,7 +27877,7 @@
 	        { className: 'eight columns', id: 'proj-content' },
 	        _react2.default.createElement(
 	          'div',
-	          { className: 'proj1Heading' },
+	          { className: 'projHeading' },
 	          _react2.default.createElement(
 	            'h1',
 	            null,
@@ -27886,9 +27886,9 @@
 	          _react2.default.createElement(
 	            'h3',
 	            null,
-	            'Enter a number and receive the integer located at that position of the sequence.',
+	            'A simple one to start us off.',
 	            _react2.default.createElement('br', null),
-	            '(Yes this is simple but it\'s a good place to start).'
+	            'Enter a number and receive the integer located at that position of the sequence.'
 	          ),
 	          _react2.default.createElement('br', null)
 	        ),
@@ -27918,7 +27918,6 @@
 	
 	  var a = ev.target.elements[0].value;
 	  var b = [0, 1];
-	  var date = "";
 	
 	  for (var i = 0; i < a; i++) {
 	    if (i > 1) {
@@ -27966,9 +27965,33 @@
 	        'div',
 	        { className: 'eight columns', id: 'proj-content' },
 	        _react2.default.createElement(
-	          'h1',
-	          null,
-	          'Project Number 2'
+	          'div',
+	          { className: 'projHeading' },
+	          _react2.default.createElement(
+	            'h1',
+	            null,
+	            'Morse Code Creator.'
+	          ),
+	          _react2.default.createElement(
+	            'h3',
+	            null,
+	            'Enter a word/sentence and have it translated to Morse Code'
+	          ),
+	          _react2.default.createElement('br', null)
+	        ),
+	        _react2.default.createElement(
+	          'form',
+	          { onSubmit: translate, id: 'translator' },
+	          _react2.default.createElement('input', { type: 'text', name: 'mText', placeholder: 'Enter Word/Sentence' }),
+	          _react2.default.createElement('br', null),
+	          _react2.default.createElement('input', { type: 'submit', value: 'Submit' }),
+	          _react2.default.createElement('br', null)
+	        ),
+	        _react2.default.createElement(
+	          'div',
+	          { className: 'result' },
+	          _react2.default.createElement('h2', { id: 'originalText' }),
+	          _react2.default.createElement('h2', { id: 'theResult' })
 	        )
 	      )
 	    )
@@ -27976,6 +27999,29 @@
 	};
 	
 	exports.default = Project2;
+	
+	
+	function translate(ev) {
+	  ev.preventDefault();
+	
+	  var textArray = ev.target.elements[0].value.toLowerCase().split('');
+	  var text = textArray.map(convertToMorse).join(' / ');
+	
+	  function convertToMorse(letter) {
+	    for (var i = 0; i < abc.length; i++) {
+	      if (letter == abc[i]) {
+	        return morsecode[i];
+	      }
+	    }
+	  }
+	
+	  document.getElementById("originalText").innerHTML = ev.target.elements[0].value;
+	  document.getElementById("theResult").innerHTML = text;
+	  document.getElementById("translator").reset();
+	}
+	
+	var abc = 'abcdefghijklmnopqrstuvwxyz0123456789.,?!:='.split('');
+	var morsecode = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..', '-----', '.---', '..---', '...--', '....-', '.....', '-....', '--...', '---..', '----.', '.-.-.-', '--..--', '..--..', '..--.', '---...', '-...-'];
 
 /***/ }),
 /* 264 */

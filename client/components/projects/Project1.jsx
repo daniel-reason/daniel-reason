@@ -10,10 +10,10 @@ const Project1 = () => (
       <div className="projects">
         <ProjectNav />
         <div className="eight columns" id="proj-content">
-          <div className="proj1Heading">
+          <div className="projHeading">
             <h1>Fibonacci!</h1>
-            <h3>Enter a number and receive the integer located at that position of the sequence.<br></br>
-            (Yes this is simple but it's a good place to start).</h3><br></br>
+            <h3>A simple one to start us off.<br></br>
+            Enter a number and receive the integer located at that position of the sequence.</h3><br></br>
           </div>
           <form onSubmit={ calculate } id="fibonacci">
             <input type="text" name="number" placeholder="Enter number"></input><br></br>
@@ -34,7 +34,6 @@ function calculate (ev) {
 
   var a = ev.target.elements[0].value
   var b = [0,1]
-  var date = ""
 
   for (var i=0;i<a;i++) {
     if (i>1) {
