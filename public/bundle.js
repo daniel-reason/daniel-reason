@@ -27678,6 +27678,11 @@
 	          _react2.default.createElement("br", null),
 	          "I'm a full-stack web developer."
 	        )
+	      ),
+	      _react2.default.createElement(
+	        "div",
+	        { id: "profile-pic" },
+	        _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
 	      )
 	    )
 	  );
