@@ -28010,19 +28010,23 @@
 	  ev.preventDefault();
 	
 	  var textArray = ev.target.elements[0].value.toLowerCase().split('');
-	  var text = textArray.map(convertToMorse).join(' / ');
-	
-	  function convertToMorse(letter) {
-	    for (var i = 0; i < abc.length; i++) {
-	      if (letter == abc[i]) {
-	        return morsecode[i];
-	      }
-	    }
-	  }
+	  var text = textArray.map(convertToMorse).filter(removeNulls).join(' / ');
 	
 	  document.getElementById("originalText").innerHTML = ev.target.elements[0].value;
 	  document.getElementById("theResult").innerHTML = text;
 	  document.getElementById("translator").reset();
+	}
+	
+	function convertToMorse(letter) {
+	  for (var i = 0; i < abc.length; i++) {
+	    if (letter == abc[i]) {
+	      return morsecode[i];
+	    }
+	  }
+	}
+	
+	function removeNulls(a) {
+	  return a != undefined;
 	}
 	
 	var abc = 'abcdefghijklmnopqrstuvwxyz0123456789.,?!:='.split('');
