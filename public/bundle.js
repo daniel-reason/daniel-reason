@@ -27825,21 +27825,6 @@
 	        "a",
 	        { href: "#project2" },
 	        "Morse Code Creator"
-	      ),
-	      _react2.default.createElement(
-	        "a",
-	        { href: "#project3" },
-	        "Project 3"
-	      ),
-	      _react2.default.createElement(
-	        "a",
-	        { href: "#project4" },
-	        "Project 4"
-	      ),
-	      _react2.default.createElement(
-	        "a",
-	        { href: "#project5" },
-	        "Project 5"
 	      )
 	    )
 	  );
