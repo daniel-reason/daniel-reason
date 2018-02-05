@@ -3,6 +3,7 @@ import { HashRouter as Router, Route } from 'react-router-dom'
 
 import About from './About'
 import Contact from './Contact'
+import Header from './Header'
 import Home from './Home'
 import Navigation from './Navigation'
 import Projects from './projects/Projects'
@@ -15,6 +16,7 @@ import Project5 from './projects/Project5'
 function App (props) {
   return (
     <div className='app-container'>
+      <Header />
       <Navigation />
       <Router>
         <div>

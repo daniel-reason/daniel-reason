@@ -23756,6 +23756,10 @@
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
+	var _Header = __webpack_require__(267);
+	
+	var _Header2 = _interopRequireDefault(_Header);
+	
 	var _Home = __webpack_require__(258);
 	
 	var _Home2 = _interopRequireDefault(_Home);
@@ -23794,6 +23798,7 @@
 	  return _react2.default.createElement(
 	    'div',
 	    { className: 'app-container' },
+	    _react2.default.createElement(_Header2.default, null),
 	    _react2.default.createElement(_Navigation2.default, null),
 	    _react2.default.createElement(
 	      _reactRouterDom.HashRouter,
@@ -27668,15 +27673,6 @@
 	        _react2.default.createElement(
 	          "div",
 	          { className: "twelve columns" },
-	          _react2.default.createElement("div", { id: "headSpace" })
-	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { className: "row" },
-	        _react2.default.createElement(
-	          "div",
-	          { className: "twelve columns" },
 	          _react2.default.createElement(
 	            "h1",
 	            null,
@@ -27691,11 +27687,6 @@
 	            "I'm a full-stack web developer."
 	          )
 	        )
-	      ),
-	      _react2.default.createElement(
-	        "div",
-	        { id: "profile-pic" },
-	        _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
 	      )
 	    )
 	  );
@@ -27754,12 +27745,6 @@
 	};
 	
 	exports.default = Navigation;
-	
-	//  <div id='shoppingList'>
-	//    <Link to='/shoppinglist'>
-	//      <img src='../../css/images/shoppingList.png' alt='link to shopping list' />
-	//    </Link>
-	//  </div>
 
 /***/ }),
 /* 260 */
@@ -28158,6 +28143,52 @@
 	};
 	
 	exports.default = Project5;
+
+/***/ }),
+/* 267 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Header = function Header() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "row" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "twelve columns" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header" },
+	          _react2.default.createElement(
+	            "div",
+	            { id: "profile-pic" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", id: "home-link" },
+	              _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
+	            )
+	          )
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Header;
 
 /***/ })
 /******/ ]);

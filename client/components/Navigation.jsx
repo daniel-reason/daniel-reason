@@ -15,11 +15,3 @@ const Navigation = ({props}) => (
 )
 
 export default Navigation
-
-
-
-      //  <div id='shoppingList'>
-      //    <Link to='/shoppinglist'>
-      //      <img src='../../css/images/shoppingList.png' alt='link to shopping list' />
-      //    </Link>
-      //  </div>
