@@ -12,6 +12,9 @@ const Header = () => (
               <img src='../../images/profileimg.jpg' alt="Ninjas stole my profile picture" />
             </a>
           </div>
+          <div id="name">
+            <h1 id="myName">Daniel Reason</h1>
+          </div>
         </div>
       </div>
     </div>

@@ -23756,39 +23756,39 @@
 	
 	var _Contact2 = _interopRequireDefault(_Contact);
 	
-	var _Header = __webpack_require__(267);
+	var _Header = __webpack_require__(258);
 	
 	var _Header2 = _interopRequireDefault(_Header);
 	
-	var _Home = __webpack_require__(258);
+	var _Home = __webpack_require__(259);
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
-	var _Navigation = __webpack_require__(259);
+	var _Navigation = __webpack_require__(260);
 	
 	var _Navigation2 = _interopRequireDefault(_Navigation);
 	
-	var _Projects = __webpack_require__(260);
+	var _Projects = __webpack_require__(261);
 	
 	var _Projects2 = _interopRequireDefault(_Projects);
 	
-	var _Project = __webpack_require__(262);
+	var _Project = __webpack_require__(263);
 	
 	var _Project2 = _interopRequireDefault(_Project);
 	
-	var _Project3 = __webpack_require__(263);
+	var _Project3 = __webpack_require__(264);
 	
 	var _Project4 = _interopRequireDefault(_Project3);
 	
-	var _Project5 = __webpack_require__(264);
+	var _Project5 = __webpack_require__(265);
 	
 	var _Project6 = _interopRequireDefault(_Project5);
 	
-	var _Project7 = __webpack_require__(265);
+	var _Project7 = __webpack_require__(266);
 	
 	var _Project8 = _interopRequireDefault(_Project7);
 	
-	var _Project9 = __webpack_require__(266);
+	var _Project9 = __webpack_require__(267);
 	
 	var _Project10 = _interopRequireDefault(_Project9);
 	
@@ -27660,6 +27660,61 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
+	var Header = function Header() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "row" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "twelve columns" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "header" },
+	          _react2.default.createElement(
+	            "div",
+	            { id: "profile-pic" },
+	            _react2.default.createElement(
+	              "a",
+	              { href: "#", id: "home-link" },
+	              _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { id: "name" },
+	            _react2.default.createElement(
+	              "h1",
+	              { id: "myName" },
+	              "Daniel Reason"
+	            )
+	          )
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Header;
+
+/***/ }),
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
 	var Home = function Home() {
 	  return _react2.default.createElement(
 	    "div",
@@ -27695,7 +27750,7 @@
 	exports.default = Home;
 
 /***/ }),
-/* 259 */
+/* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27747,7 +27802,7 @@
 	exports.default = Navigation;
 
 /***/ }),
-/* 260 */
+/* 261 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27760,7 +27815,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProjectNav = __webpack_require__(261);
+	var _ProjectNav = __webpack_require__(262);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
 	
@@ -27792,7 +27847,7 @@
 	exports.default = Projects;
 
 /***/ }),
-/* 261 */
+/* 262 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27831,7 +27886,7 @@
 	exports.default = ProjectNav;
 
 /***/ }),
-/* 262 */
+/* 263 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27846,7 +27901,7 @@
 	
 	var _reactRedux = __webpack_require__(184);
 	
-	var _ProjectNav = __webpack_require__(261);
+	var _ProjectNav = __webpack_require__(262);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
 	
@@ -27922,7 +27977,7 @@
 	}
 
 /***/ }),
-/* 263 */
+/* 264 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27935,7 +27990,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProjectNav = __webpack_require__(261);
+	var _ProjectNav = __webpack_require__(262);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
 	
@@ -28016,7 +28071,7 @@
 	var morsecode = ['.-', '-...', '-.-.', '-..', '.', '..-.', '--.', '....', '..', '.---', '-.-', '.-..', '--', '-.', '---', '.--.', '--.-', '.-.', '...', '-', '..-', '...-', '.--', '-..-', '-.--', '--..', '-----', '.---', '..---', '...--', '....-', '.....', '-....', '--...', '---..', '----.', '.-.-.-', '--..--', '..--..', '..--.', '---...', '-...-'];
 
 /***/ }),
-/* 264 */
+/* 265 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28029,7 +28084,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProjectNav = __webpack_require__(261);
+	var _ProjectNav = __webpack_require__(262);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
 	
@@ -28059,7 +28114,7 @@
 	exports.default = Project3;
 
 /***/ }),
-/* 265 */
+/* 266 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28072,7 +28127,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProjectNav = __webpack_require__(261);
+	var _ProjectNav = __webpack_require__(262);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
 	
@@ -28102,7 +28157,7 @@
 	exports.default = Project4;
 
 /***/ }),
-/* 266 */
+/* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -28115,7 +28170,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _ProjectNav = __webpack_require__(261);
+	var _ProjectNav = __webpack_require__(262);
 	
 	var _ProjectNav2 = _interopRequireDefault(_ProjectNav);
 	
@@ -28143,52 +28198,6 @@
 	};
 	
 	exports.default = Project5;
-
-/***/ }),
-/* 267 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
-	var Header = function Header() {
-	  return _react2.default.createElement(
-	    "div",
-	    { className: "container" },
-	    _react2.default.createElement(
-	      "div",
-	      { className: "row" },
-	      _react2.default.createElement(
-	        "div",
-	        { className: "twelve columns" },
-	        _react2.default.createElement(
-	          "div",
-	          { className: "header" },
-	          _react2.default.createElement(
-	            "div",
-	            { id: "profile-pic" },
-	            _react2.default.createElement(
-	              "a",
-	              { href: "#", id: "home-link" },
-	              _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
-	            )
-	          )
-	        )
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Header;
 
 /***/ })
 /******/ ]);
