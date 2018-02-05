@@ -28181,6 +28181,13 @@
 	              { href: "#", id: "home-link" },
 	              _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
 	            )
+	          ),
+	          _react2.default.createElement(
+	            "div",
+	            { id: "nav-icon" },
+	            _react2.default.createElement("span", null),
+	            _react2.default.createElement("span", null),
+	            _react2.default.createElement("span", null)
 	          )
 	        )
 	      )
@@ -28189,6 +28196,12 @@
 	};
 	
 	exports.default = Header;
+	
+	// $(document).ready(function() {
+	//   $('#nav-icon').click(function() {
+	//     $(this).toggleClass('open')
+	//   })
+	// })
 
 /***/ })
 /******/ ]);

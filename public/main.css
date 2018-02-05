@@ -5,12 +5,12 @@
 
 body {
   color: white;
-  background: url("./images/skyline.jpg") no-repeat center bottom fixed;
+  background: url("./images/skyline.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
   background-size: cover;
-  background-size: 100% 87.5%;
+  background-size: 100% 75%;
   /*font-family: 'MyWebFont', Fallback, sans-serif;*/
   font-family: 'Merienda';
  }
@@ -38,6 +38,7 @@ body {
  }
 
  .navBar {
+   margin-top: 1px;
    position: fixed;
    text-align: right;
    overflow: hidden;
