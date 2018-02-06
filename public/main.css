@@ -4,7 +4,6 @@
 }
 
 body {
-  color: white;
   background: url("./images/skyline.jpg") no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -19,7 +18,8 @@ body {
    text-decoration: none;
  }
 
- h1 {
+ h2 {
+   color: blue;
    text-shadow: 1px 1px black;
  }
 
@@ -38,36 +38,33 @@ body {
  }
 
  .header {
-   top: 0;
-   position: fixed;
-   background-color: white;
-   height: 12.5%;
+   height: 100px;
    width: 100%;
  }
 
-.header #name {
-   position: fixed;
-   right: 0;
-   text-align: left;
-   margin: 3% auto 10px auto;
-   width: 88%;
+.header #title {
+  position: relative;
+  text-align: left;
+  top: 50px;
+  margin-left: 150px;
  }
 
  #profile-pic img {
    float: left;
    position: relative;
-   margin: 1%;
-   width: 10%;
-   height: auto;
+   margin: 2px 20px;
+   min-width: 50px;
+   max-width: 96px;
+   min-height: 50px;
+   min-height: 96px;
    border-radius: 50%;
  }
 
  .navBar {
-   margin-top: 1px;
    position: fixed;
    text-align: right;
    overflow: hidden;
-   top: 12.5%;
+   top: 100px;
    right: 0;
    height: 100%;
    width: 15%;
@@ -131,10 +128,6 @@ body {
   float: left;
 }
 
-#myName {
-  color: #ff4d4d;
-}
-
   .one.column,
   .one.columns                    { width: 8%; }
   .two.columns                    { width: 16%; }
@@ -147,7 +140,7 @@ body {
   .nine.columns                   { width: 74%;          }
   .ten.columns                    { width: 83%; }
   .eleven.columns                 { width: 91%; }
-  .twelve.columns                 { width: 99%; margin-left: 0; }
+  .twelve.columns                 { width: 100%; margin-left: 0; }
 
 
   /* Offsets */

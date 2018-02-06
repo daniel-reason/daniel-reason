@@ -27684,11 +27684,11 @@
 	          ),
 	          _react2.default.createElement(
 	            "div",
-	            { id: "name" },
+	            { id: "title" },
 	            _react2.default.createElement(
-	              "h1",
+	              "h2",
 	              { id: "myName" },
-	              "Daniel Reason"
+	              "Daniel Reason - Web Developer"
 	            )
 	          )
 	        )
@@ -27782,13 +27782,13 @@
 	      ),
 	      _react2.default.createElement(
 	        "a",
-	        { href: "#projects", id: "projects-link" },
-	        "Projects"
+	        { href: "#about", id: "about-link" },
+	        "About"
 	      ),
 	      _react2.default.createElement(
 	        "a",
-	        { href: "#about", id: "about-link" },
-	        "About"
+	        { href: "#projects", id: "projects-link" },
+	        "Projects"
 	      ),
 	      _react2.default.createElement(
 	        "a",
