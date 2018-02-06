@@ -15,60 +15,60 @@ body {
   font-family: 'Merienda';
  }
 
- a {
-   text-decoration: none;
- }
+a {
+ text-decoration: none;
+}
 
- h2 {
-   text-shadow: 1px 1px black;
- }
+h2 {
+ text-shadow: 1px 1px black;
+}
 
- .container {
-   position: relative;
-   color: white;
-   text-align: center;
- }
+.container {
+  position: relative;
+  color: white;
+  text-align: center;
+}
 
- .homeContent,
- .contact,
- .about,
- #proj-content,
- #proj-nav {
-   margin-top: 50px;
- }
+.homeContent,
+  .contact,
+  .about,
+  #proj-content,
+  #proj-nav {
+  margin-top: 50px;
+}
 
- .header {
-   height: 100px;
-   background: linear-gradient(lightgray, #262626);
- }
+.header {
+  height: 100px;
+  background: linear-gradient(lightgray, #262626);
+}
 
 .header #title {
   position: relative;
   text-align: left;
   top: 50%;
   margin-left: 10%;
- }
+}
 
- #profile-pic img {
-   float: left;
-   position: relative;
-   margin: 2px 20px;
-   min-width: 50px;
-   max-width: 96px;
-   min-height: 50px;
-   max-height: 96px;
-   border-radius: 50%;
- }
+#profile-pic img {
+  float: left;
+  position: relative;
+  margin: 2px 20px;
+  min-width: 50px;
+  max-width: 96px;
+  min-height: 50px;
+  max-height: 96px;
+  border-radius: 50%;
+}
 
- .navBar {
-   position: fixed;
-   text-align: right;
-   overflow: hidden;
-   top: 0px;
-   right: 0;
-   height: 100px;
-   width: 15%;
-   z-index: 10;
+.navBar {
+  position: fixed;
+  text-align: right;
+  overflow: hidden;
+  top: 0px;
+  right: 0;
+  height: 100px;
+  width: 15%;
+  z-index: 10;
 }
 
 .links a {
@@ -130,51 +130,49 @@ body {
   float: left;
 }
 
-  .one.column,
-  .one.columns                    { width: 8%; }
-  .two.columns                    { width: 16%; }
-  .three.columns                  { width: 24%;            }
-  .four.columns                   { width: 33%; }
-  .five.columns                   { width: 41%; }
-  .six.columns                    { width: 49%;            }
-  .seven.columns                  { width: 58%; }
-  .eight.columns                  { width: 66%; }
-  .nine.columns                   { width: 74%;          }
-  .ten.columns                    { width: 83%; }
-  .eleven.columns                 { width: 91%; }
-  .twelve.columns                 { width: 100%; margin-left: 0; }
+.one.column,
+.one.columns                    { width: 8%; }
+.two.columns                    { width: 16%; }
+.three.columns                  { width: 24%;            }
+.four.columns                   { width: 33%; }
+.five.columns                   { width: 41%; }
+.six.columns                    { width: 49%;            }
+.seven.columns                  { width: 58%; }
+.eight.columns                  { width: 66%; }
+.nine.columns                   { width: 74%;          }
+.ten.columns                    { width: 83%; }
+.eleven.columns                 { width: 91%; }
+.twelve.columns                 { width: 100%; margin-left: 0; }
 
+/* Offsets */
+.offset-by-one.column,
+.offset-by-one.columns          { margin-left: 8.66666666667%; }
+.offset-by-two.column,
+.offset-by-two.columns          { margin-left: 17.3333333333%; }
+.offset-by-three.column,
+.offset-by-three.columns        { margin-left: 26%;            }
+.offset-by-four.column,
+.offset-by-four.columns         { margin-left: 34.6666666667%; }
+.offset-by-five.column,
+.offset-by-five.columns         { margin-left: 43.3333333333%; }
+.offset-by-six.column,
+.offset-by-six.columns          { margin-left: 52%;            }
+.offset-by-seven.column,
+.offset-by-seven.columns        { margin-left: 60.6666666667%; }
+.offset-by-eight.column,
+.offset-by-eight.columns        { margin-left: 69.3333333333%; }
+.offset-by-nine.column,
+.offset-by-nine.columns         { margin-left: 78.0%;          }
+.offset-by-ten.column,
+.offset-by-ten.columns          { margin-left: 86.6666666667%; }
+.offset-by-eleven.column,
+.offset-by-eleven.columns       { margin-left: 95.3333333333%; }
 
-  /* Offsets */
-  .offset-by-one.column,
-  .offset-by-one.columns          { margin-left: 8.66666666667%; }
-  .offset-by-two.column,
-  .offset-by-two.columns          { margin-left: 17.3333333333%; }
-  .offset-by-three.column,
-  .offset-by-three.columns        { margin-left: 26%;            }
-  .offset-by-four.column,
-  .offset-by-four.columns         { margin-left: 34.6666666667%; }
-  .offset-by-five.column,
-  .offset-by-five.columns         { margin-left: 43.3333333333%; }
-  .offset-by-six.column,
-  .offset-by-six.columns          { margin-left: 52%;            }
-  .offset-by-seven.column,
-  .offset-by-seven.columns        { margin-left: 60.6666666667%; }
-  .offset-by-eight.column,
-  .offset-by-eight.columns        { margin-left: 69.3333333333%; }
-  .offset-by-nine.column,
-  .offset-by-nine.columns         { margin-left: 78.0%;          }
-  .offset-by-ten.column,
-  .offset-by-ten.columns          { margin-left: 86.6666666667%; }
-  .offset-by-eleven.column,
-  .offset-by-eleven.columns       { margin-left: 95.3333333333%; }
+.offset-by-one-third.column,
+.offset-by-one-third.columns    { margin-left: 34.6666666667%; }
+.offset-by-two-thirds.column,
+.offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
 
-  .offset-by-one-third.column,
-  .offset-by-one-third.columns    { margin-left: 34.6666666667%; }
-  .offset-by-two-thirds.column,
-  .offset-by-two-thirds.columns   { margin-left: 69.3333333333%; }
-
-  .offset-by-one-half.column,
-  .offset-by-one-half.columns     { margin-left: 52%; }
-
+.offset-by-one-half.column,
+.offset-by-one-half.columns     { margin-left: 52%; }
 }

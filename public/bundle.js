@@ -27725,23 +27725,7 @@
 	      _react2.default.createElement(
 	        "div",
 	        { className: "row" },
-	        _react2.default.createElement(
-	          "div",
-	          { className: "eight columns offset-by-two" },
-	          _react2.default.createElement(
-	            "h1",
-	            null,
-	            "Hello, I'm ",
-	            _react2.default.createElement(
-	              "span",
-	              { id: "myName" },
-	              "Daniel Reason"
-	            ),
-	            ".",
-	            _react2.default.createElement("br", null),
-	            "I'm a full-stack web developer."
-	          )
-	        )
+	        _react2.default.createElement("div", { className: "eight columns offset-by-two" })
 	      )
 	    )
 	  );
