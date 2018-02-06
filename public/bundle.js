@@ -23764,10 +23764,6 @@
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
-	var _Navigation = __webpack_require__(260);
-	
-	var _Navigation2 = _interopRequireDefault(_Navigation);
-	
 	var _Projects = __webpack_require__(261);
 	
 	var _Projects2 = _interopRequireDefault(_Projects);
@@ -23799,7 +23795,6 @@
 	    'div',
 	    { className: 'app-container' },
 	    _react2.default.createElement(_Header2.default, null),
-	    _react2.default.createElement(_Navigation2.default, null),
 	    _react2.default.createElement(
 	      _reactRouterDom.HashRouter,
 	      null,
@@ -27593,7 +27588,7 @@
 	      { className: "about" },
 	      _react2.default.createElement(
 	        "div",
-	        { className: "twelve columns", id: "about-content" },
+	        { className: "eight columns offset-by-two", id: "about-content" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,
@@ -27631,7 +27626,7 @@
 	      { className: "contact" },
 	      _react2.default.createElement(
 	        "div",
-	        { className: "twelve columns" },
+	        { className: "eight columns offset-by-two" },
 	        _react2.default.createElement(
 	          "h1",
 	          null,
@@ -27648,7 +27643,7 @@
 /* 258 */
 /***/ (function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 	
 	Object.defineProperty(exports, "__esModule", {
 	  value: true
@@ -27658,39 +27653,44 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
+	var _Navigation = __webpack_require__(260);
+	
+	var _Navigation2 = _interopRequireDefault(_Navigation);
+	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
 	var Header = function Header() {
 	  return _react2.default.createElement(
-	    "div",
-	    { className: "container" },
+	    'div',
+	    { className: 'container' },
 	    _react2.default.createElement(
-	      "div",
-	      { className: "row" },
+	      'div',
+	      { className: 'row' },
 	      _react2.default.createElement(
-	        "div",
-	        { className: "twelve columns" },
+	        'div',
+	        { className: 'twelve columns' },
 	        _react2.default.createElement(
-	          "div",
-	          { className: "header" },
+	          'div',
+	          { className: 'header' },
 	          _react2.default.createElement(
-	            "div",
-	            { id: "profile-pic" },
+	            'div',
+	            { id: 'profile-pic' },
 	            _react2.default.createElement(
-	              "a",
-	              { href: "#", id: "home-link" },
-	              _react2.default.createElement("img", { src: "../../images/profileimg.jpg", alt: "Ninjas stole my profile picture" })
+	              'a',
+	              { href: '#', id: 'home-link' },
+	              _react2.default.createElement('img', { src: '../../images/profileimg.jpg', alt: 'Ninjas stole my profile picture' })
 	            )
 	          ),
 	          _react2.default.createElement(
-	            "div",
-	            { id: "title" },
+	            'div',
+	            { id: 'title' },
 	            _react2.default.createElement(
-	              "h2",
-	              { id: "myName" },
-	              "Daniel Reason - Web Developer"
+	              'h2',
+	              { id: 'myName' },
+	              'Daniel Reason - Web Developer'
 	            )
-	          )
+	          ),
+	          _react2.default.createElement(_Navigation2.default, null)
 	        )
 	      )
 	    )
@@ -27727,7 +27727,7 @@
 	        { className: "row" },
 	        _react2.default.createElement(
 	          "div",
-	          { className: "twelve columns" },
+	          { className: "eight columns offset-by-two" },
 	          _react2.default.createElement(
 	            "h1",
 	            null,
@@ -27775,11 +27775,6 @@
 	    _react2.default.createElement(
 	      "div",
 	      { className: "links" },
-	      _react2.default.createElement(
-	        "a",
-	        { href: "#", id: "home-link" },
-	        "Home"
-	      ),
 	      _react2.default.createElement(
 	        "a",
 	        { href: "#about", id: "about-link" },

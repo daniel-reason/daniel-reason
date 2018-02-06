@@ -5,7 +5,7 @@ const About = () => (
 
     <div className="container">
       <div className="about">
-        <div className="twelve columns" id="about-content">
+        <div className="eight columns offset-by-two" id="about-content">
           <h1>About Page</h1>
         </div>
       </div>

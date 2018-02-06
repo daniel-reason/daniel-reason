@@ -5,7 +5,6 @@ import About from './About'
 import Contact from './Contact'
 import Header from './Header'
 import Home from './Home'
-import Navigation from './Navigation'
 import Projects from './projects/Projects'
 import Project1 from './projects/Project1'
 import Project2 from './projects/Project2'
@@ -17,7 +16,6 @@ function App (props) {
   return (
     <div className='app-container'>
       <Header />
-      <Navigation />
       <Router>
         <div>
           <Route exact path='/' component={Home} />

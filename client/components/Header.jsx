@@ -1,5 +1,7 @@
 import React from 'react'
 
+import Navigation from './Navigation'
+
 
 const Header = () => (
 
@@ -15,6 +17,7 @@ const Header = () => (
           <div id="title">
             <h2 id="myName">Daniel Reason - Web Developer</h2>
           </div>
+          <Navigation />
         </div>
       </div>
     </div>
