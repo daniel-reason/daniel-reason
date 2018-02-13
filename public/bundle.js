@@ -27630,7 +27630,43 @@
 	        _react2.default.createElement(
 	          "h1",
 	          null,
-	          "Contact Page"
+	          "Contact"
+	        )
+	      ),
+	      _react2.default.createElement(
+	        "div",
+	        { className: "content" },
+	        _react2.default.createElement(
+	          "ul",
+	          null,
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://github.com/daniel-reason" },
+	              "GitHub"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            _react2.default.createElement(
+	              "a",
+	              { href: "https://www.linkedin.com/in/daniel-reason-b6288513b/" },
+	              "LinkedIn"
+	            )
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "Phone: 027 917 3336"
+	          ),
+	          _react2.default.createElement(
+	            "li",
+	            null,
+	            "Email: dreason@live.co.uk"
+	          )
 	        )
 	      )
 	    )
@@ -27830,9 +27866,7 @@
 	        _react2.default.createElement(
 	          'h1',
 	          null,
-	          'Construction Zone.',
-	          _react2.default.createElement('br', null),
-	          'Hardhats must be worn!'
+	          'A collection of fun little projects.'
 	        )
 	      )
 	    )

@@ -26,8 +26,13 @@ a {
 .homeContent,
   .contact,
   .about,
-  #proj-content{
-  margin-top: 100px;
+  #proj-content,
+  #proj-nav{
+  margin-top: 20px;;
+}
+
+.content {
+  margin-top: 50px;
 }
 
 .header {
