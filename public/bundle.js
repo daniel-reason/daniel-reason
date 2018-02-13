@@ -23760,7 +23760,7 @@
 	
 	var _Header2 = _interopRequireDefault(_Header);
 	
-	var _Home = __webpack_require__(259);
+	var _Home = __webpack_require__(260);
 	
 	var _Home2 = _interopRequireDefault(_Home);
 	
@@ -27653,7 +27653,7 @@
 	
 	var _react2 = _interopRequireDefault(_react);
 	
-	var _Navigation = __webpack_require__(260);
+	var _Navigation = __webpack_require__(259);
 	
 	var _Navigation2 = _interopRequireDefault(_Navigation);
 	
@@ -27715,40 +27715,6 @@
 	
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 	
-	var Home = function Home() {
-	  return _react2.default.createElement(
-	    "div",
-	    { className: "container" },
-	    _react2.default.createElement(
-	      "div",
-	      { className: "homeContent" },
-	      _react2.default.createElement(
-	        "div",
-	        { className: "row" },
-	        _react2.default.createElement("div", { className: "eight columns offset-by-two" })
-	      )
-	    )
-	  );
-	};
-	
-	exports.default = Home;
-
-/***/ }),
-/* 260 */
-/***/ (function(module, exports, __webpack_require__) {
-
-	"use strict";
-	
-	Object.defineProperty(exports, "__esModule", {
-	  value: true
-	});
-	
-	var _react = __webpack_require__(1);
-	
-	var _react2 = _interopRequireDefault(_react);
-	
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-	
 	// import { Link } from 'react-router-dom'
 	
 	var Navigation = function Navigation(_ref) {
@@ -27779,6 +27745,56 @@
 	};
 	
 	exports.default = Navigation;
+
+/***/ }),
+/* 260 */
+/***/ (function(module, exports, __webpack_require__) {
+
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _react = __webpack_require__(1);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	var Home = function Home() {
+	  return _react2.default.createElement(
+	    "div",
+	    { className: "container" },
+	    _react2.default.createElement(
+	      "div",
+	      { className: "homeContent" },
+	      _react2.default.createElement(
+	        "div",
+	        { className: "row" },
+	        _react2.default.createElement(
+	          "div",
+	          { className: "eight columns offset-by-two" },
+	          _react2.default.createElement(
+	            "h1",
+	            null,
+	            "Hello, I'm ",
+	            _react2.default.createElement(
+	              "span",
+	              { id: "myName" },
+	              "Daniel Reason"
+	            ),
+	            ".",
+	            _react2.default.createElement("br", null),
+	            "I'm a full-stack web developer."
+	          )
+	        )
+	      )
+	    )
+	  );
+	};
+	
+	exports.default = Home;
 
 /***/ }),
 /* 261 */
@@ -27856,7 +27872,7 @@
 	      _react2.default.createElement(
 	        "a",
 	        { href: "#project2" },
-	        "Morse Code Creator"
+	        "Morse Code"
 	      )
 	    )
 	  );
