@@ -8,7 +8,7 @@ const Contact = () => (
         <div className="eight columns offset-by-two">
           <h1 id="title">Contact</h1>
         </div>
-        <div className="content">
+        <div className="content" id="contactContent">
           <ul>
             <li><a href="https://github.com/daniel-reason">GitHub</a></li>
             <li><a href="https://www.linkedin.com/in/daniel-reason-b6288513b/">LinkedIn</a></li>

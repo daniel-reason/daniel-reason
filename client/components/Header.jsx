@@ -14,7 +14,7 @@ const Header = () => (
               <img src='../../images/profileimg.jpg' alt="Ninjas stole my profile picture" />
             </a>
           </div>
-          <div id="title">
+          <div id="headingTitle">
             <h2 id="myName">Daniel Reason - Web Developer</h2>
           </div>
           <Navigation />

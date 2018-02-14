@@ -27594,6 +27594,13 @@
 	          { id: "title" },
 	          "About"
 	        )
+	      ),
+	      _react2.default.createElement(
+	        "div",
+	        { id: "aboutMe" },
+	        "This is where I would write stuff that is both compelling and note worthy stuff about myself. ",
+	        _react2.default.createElement("br", null),
+	        "I'm sure there is some things but I'll have to get back to you on that."
 	      )
 	    )
 	  );
@@ -27635,7 +27642,7 @@
 	      ),
 	      _react2.default.createElement(
 	        "div",
-	        { className: "content" },
+	        { className: "content", id: "contactContent" },
 	        _react2.default.createElement(
 	          "ul",
 	          null,
@@ -27720,7 +27727,7 @@
 	          ),
 	          _react2.default.createElement(
 	            'div',
-	            { id: 'title' },
+	            { id: 'headingTitle' },
 	            _react2.default.createElement(
 	              'h2',
 	              { id: 'myName' },
@@ -27815,13 +27822,7 @@
 	          _react2.default.createElement(
 	            "h1",
 	            null,
-	            "Hello, I'm ",
-	            _react2.default.createElement(
-	              "span",
-	              { id: "myName" },
-	              "Daniel Reason"
-	            ),
-	            ".",
+	            "Hello, I'm Daniel Reason.",
 	            _react2.default.createElement("br", null),
 	            "I make web thingys."
 	          )
@@ -27863,7 +27864,7 @@
 	      _react2.default.createElement(_ProjectNav2.default, null),
 	      _react2.default.createElement(
 	        'div',
-	        { className: 'eight columns', id: 'proj-content' },
+	        { className: 'eight columns offset-by-two' },
 	        _react2.default.createElement(
 	          'h1',
 	          { id: 'title' },
