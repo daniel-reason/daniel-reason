@@ -8,7 +8,7 @@ const Home = () => (
       <div className="row">
         <div className="eight columns offset-by-two">
           <h1>Hello, I'm <span id="myName">Daniel Reason</span>.<br></br>
-          I'm a full-stack web developer.</h1>
+          I make web thingys.</h1>
         </div>
       </div>
     </div>

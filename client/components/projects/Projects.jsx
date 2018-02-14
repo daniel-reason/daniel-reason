@@ -9,7 +9,7 @@ const Projects = () => (
       <div className="projects">
         <ProjectNav />
         <div className="eight columns" id="proj-content">
-          <h1>A collection of fun little projects.</h1>
+          <h1 id="title">A collection of fun little projects.</h1>
         </div>
       </div>
     </div>

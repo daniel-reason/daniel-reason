@@ -14,8 +14,8 @@ const Project2 = () => (
             <h3>Enter a word/sentence and have it translated to Morse Code</h3><br></br>
           </div>
           <form onSubmit={ translate } id="translator">
-            <input type="text" name="mText" placeholder="Enter Word/Sentence"></input><br></br>
-            <input type="submit" value="Submit"></input><br></br>
+            <input id="inputBar" type="text" name="mText" placeholder="Enter Word/Sentence"></input><br></br>
+            <input id="submitButton" type="submit" value="Submit"></input><br></br>
           </form>
           <div className="result">
             <h2 id="originalText"></h2>

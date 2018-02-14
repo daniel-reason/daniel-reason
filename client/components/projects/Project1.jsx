@@ -16,8 +16,8 @@ const Project1 = () => (
             Enter a number and receive the integer located at that position of the sequence.</h3><br></br>
           </div>
           <form onSubmit={ calculate } id="fibonacci">
-            <input type="text" name="number" placeholder="Enter number"></input><br></br>
-            <input type="submit" value="Submit"></input><br></br>
+            <input id="inputBar" type="text" name="number" placeholder="Enter number"></input><br></br>
+            <input id="submitButton" type="submit" value="Submit"></input><br></br>
           </form>
           <div className="result">
             <h2 id="theResult"></h2>

@@ -6,7 +6,7 @@ const Contact = () => (
     <div className="container">
       <div className="contact">
         <div className="eight columns offset-by-two">
-          <h1>Contact</h1>
+          <h1 id="title">Contact</h1>
         </div>
         <div className="content">
           <ul>

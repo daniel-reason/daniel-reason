@@ -10,12 +10,15 @@ body {
     -o-background-size: cover;
   background-size: cover;
   background-size: 100% 100%;
-  /*font-family: 'MyWebFont', Fallback, sans-serif;*/
   font-family: 'Slabo 27px', serif;
  }
 
 a {
  text-decoration: none;
+}
+
+h3 {
+  margin-top: 20px;
 }
 
 .container {
@@ -103,6 +106,14 @@ a {
   opacity: 1;
 }
 
+.result {
+  margin-top: 20px;
+}
+
+#title {
+  font-style: italic;
+}
+
 #proj-nav {
   text-align: left;
   float: left;
@@ -129,6 +140,26 @@ a {
 
 #proj-content {
   float: left;
+}
+
+#inputBar {
+  border-radius: 5px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+#submitButton {
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px 15px;
+  font-size: 15px;
+  transition: 1s ease-in;
+}
+
+#submitButton:hover {
+  color: white;
+  background: black;
+  transition: 0.75s;
 }
 
 .one.column,
